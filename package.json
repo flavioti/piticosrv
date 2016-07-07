@@ -1,0 +1,41 @@
+{
+  "name": "gestaocoletiva",
+  "version": "0.0.5",
+  "description": "Gestão e automação residencial",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": "Flavio Sousa",
+  "homepage": "flaviosousa.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openshift/origin-server.git"
+  },
+  "engines": {
+    "node": ">= 0.10.35",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "jwt-simple": "0.4.1",
+    "morgan": "1.6.1",
+    "nano-id": "1.1.0",
+    "nodemailer": "2.0.0",
+    "siege": "^0.2.0",
+    "mongoose": "4.5.3"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/openshift/origin-server/issues"
+  },
+  "license": "ISC"
+}
